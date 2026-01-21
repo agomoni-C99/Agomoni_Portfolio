@@ -1,0 +1,134 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+.main-background{
+   width: auto;
+   height: auto;
+   background: url(OIP.jpeg);
+   padding-top: 20px;
+}
+.main-container{
+   margin: 0 auto;
+   padding: 0 15px;
+    background-color:rgb(231, 213, 209);
+    /* border: 1px,solid,black; */
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(241, 195, 195, 0.1);
+    display: flex;
+   justify-content: space-between;
+}
+.nav-links{
+   display: flex;
+   gap: 20px;
+}
+.logo{ 
+   color:  rgb(230, 106, 126);
+   font-style: italic;
+   font-size: 70%;
+   text-align: left;
+
+}
+.navlist{
+ font-size: 70%;
+}
+.content-box{
+   /* border: 1px,solid,black ; */
+   border-radius: 25px;
+   box-shadow: 0 4px 6px rgba(230, 224, 224, 0.1);
+   background-color: rgb(231, 213, 209);
+   width: 450px;
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.about-me{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.photo{
+   border:1px,solid,black ;
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+   margin:10px;
+}
+.bio-text{
+   font-style: italic;
+   display: flex;
+   justify-content: space-between;
+}
+.details{
+/* border: 1px,solid,black; */
+border-radius: 25px; 
+box-shadow: 0 4px 6px rgba(230, 224, 224, 0.1); 
+display: flex;
+justify-content: space-between;
+}
+.experience-box{
+ border: 1px,solid,black ; 
+ border-radius: 25px;
+ width: 450px;
+ padding: 20px;
+ margin: 10px;
+ background-color:rgb(231, 213, 209);
+}
+.experience{
+   color: rgb(230, 106, 126);
+   text-align: center;
+}
+.education-box{
+ border: 1px,solid,black; 
+ border-radius: 25px;
+ width: 450px;
+ padding: 20px;
+ margin: 10px;
+ background-color:rgb(231, 213, 209);
+}
+#education{
+   color: rgb(230, 106, 126);
+   text-align: center;
+}
+
+
+.skills-box{
+ border: 1px,solid,black ; 
+ border-radius: 25px;
+ width: 450px;
+ padding: 20px;
+ margin: 10px;
+ background-color:rgb(231, 213, 209);
+}
+.skills{
+   color: rgb(230, 106, 126);
+   text-align: center;
+}
+.project-container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.project-box{
+/* border: 1px,solid,black ;  */
+border-radius: 25px;
+ box-shadow: 0 4px 6px rgba(230, 224, 224, 0.1);
+ width: 450px;
+ padding: 20px;
+ margin: 10px;
+ background-color:rgb(231, 213, 209);
+ 
+}
+.project{
+   color: rgb(230, 106, 126);
+   text-align: center;
+}
+
+.footerbox{
+   border: 1px,solid,black;
+   border-radius: 25px;
+   text-align: center;
+   background-color: rgb(231, 213, 209);
+}
